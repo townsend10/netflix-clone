@@ -9,7 +9,7 @@ export default async function handler(
   if (req.method !== "GET") {
     return res.status(405).end();
   }
-  console.error("aa");
+  console.log("aaok");
 
   try {
     await serverAuth(req, res);
